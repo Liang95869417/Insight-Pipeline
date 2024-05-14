@@ -10,6 +10,8 @@ The primary objective of this project is to create a data pipeline that populate
 - `user_purchase`: An OLTP table containing user purchase information.
 - `movie_review.csv`: Daily data provided by an external vendor.
 
+![Project Objective](assets/images/de_proj_obj.png)
+
 ## Technologies and Tools Used
 
 ### Apache Airflow
@@ -54,6 +56,8 @@ The data pipeline was designed to perform the following tasks:
 2. **Load Classified Reviews**: Loading the classified movie reviews into AWS Redshift.
 3. **Extract User Purchase Data**: Extracting user purchase data from an OLTP database and loading it into Redshift.
 4. **Generate User Behavior Metrics**: Joining classified movie reviews with user purchase data to generate user behavior metrics.
+
+![Data Pipeline Design](assets/images/de_proj_design.png)
 
 ### Detailed Steps
 
